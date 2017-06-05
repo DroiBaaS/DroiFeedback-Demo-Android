@@ -8,4 +8,6 @@
     <string name="user_defined_text">设置自定义</string>
     <string name="set_default_text">设为默认</string>
     <string name="confirm">确定</string>
+    <string name="send">发送</string>
+    <string name="get">获取</string>
 </resources>

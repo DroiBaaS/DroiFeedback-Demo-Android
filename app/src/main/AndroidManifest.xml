@@ -12,13 +12,13 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.droi.sdk.application_id"
-            android:value="810umbzhQq-dFaT0vveUNA6IOQZWr0YtlQDj13oN" />
-        <meta-data
-            android:name="com.droi.sdk.platform_key"
-            android:value="IrKo-Ag0NFz2zyP_o2BspOrqXDRc93ptpOrqXDRc" />
+            android:value="2b8umbzhdS9wEkXXak0slXqFpMxSd3_8lQCAiLwR" />
         <meta-data
             android:name="com.droi.sdk.channel_name"
             android:value="DROI_CHANNEL" />
+        <!--<meta-data
+            android:name="com.droi.sdk.feedback.apikey"
+            android:value="_Alo_HOvf32ohDFdYVKz05DGhCYTpqPzKq78elkEx1iDjmOtPe_anOHQGA2TS4m9" />-->
 
         <activity
             android:name=".MainActivity"
