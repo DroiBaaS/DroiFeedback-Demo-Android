@@ -13,12 +13,10 @@
         <meta-data
             android:name="com.droi.sdk.application_id"
             android:value="2b8umbzhdS9wEkXXak0slXqFpMxSd3_8lQCAiLwR" />
+
         <meta-data
             android:name="com.droi.sdk.channel_name"
             android:value="DROI_CHANNEL" />
-        <!--<meta-data
-            android:name="com.droi.sdk.feedback.apikey"
-            android:value="_Alo_HOvf32ohDFdYVKz05DGhCYTpqPzKq78elkEx1iDjmOtPe_anOHQGA2TS4m9" />-->
 
         <activity
             android:name=".MainActivity"

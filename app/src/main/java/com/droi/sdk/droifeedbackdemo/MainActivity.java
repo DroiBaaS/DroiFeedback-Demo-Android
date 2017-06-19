@@ -18,7 +18,6 @@ import com.droi.sdk.feedback.DroiFeedbackError;
 import com.droi.sdk.feedback.DroiFeedbackInfo;
 import com.droi.sdk.feedback.DroiFeedbackReplyListener;
 import com.droi.sdk.feedback.DroiFeedbackSendListener;
-import com.droi.sdk.internal.DroiLog;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -85,9 +84,6 @@ public class MainActivity extends Activity {
                                 break;
                             case DroiFeedbackError.FEEDBACK_NOT_FOUND:
                                 Toast.makeText(getApplicationContext(), "联系方式或反馈内容为空", Toast.LENGTH_SHORT).show();
-                                break;
-                            case DroiFeedbackError.CONTACT_INVALID:
-                                Toast.makeText(getApplicationContext(), "联系方式不合法", Toast.LENGTH_SHORT).show();
                                 break;
                             case DroiFeedbackError.UPLOAD_IMAGE_FAILED:
                                 Toast.makeText(getApplicationContext(), "文件上传失败", Toast.LENGTH_SHORT).show();

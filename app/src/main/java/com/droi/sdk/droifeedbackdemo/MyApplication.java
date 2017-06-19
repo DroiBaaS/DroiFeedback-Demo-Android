@@ -16,8 +16,7 @@ public class MyApplication extends Application {
         }
         LeakCanary.install(this);
         Core.initialize(this);
-        DroiFeedback.initialize(this);
-        DroiFeedback.setApiKey("_Alo_HOvf32ohDFdYVKz05DGhCYTpqPzKq78elkEx1iDjmOtPe_anOHQGA2TS4m9");
+        DroiFeedback.initialize(this, "_Alo_HOvf32ohDFdYVKz05DGhCYTpqPzKq78elkEx1iDjmOtPe_anOHQGA2TS4m9");
         DroiFeedback.setImageEngine(new GlideEngine());
     }
 }
