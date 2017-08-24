@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.droi.sdk.DroiError;
+import com.droi.sdk.core.DroiUser;
 import com.droi.sdk.core.FeedbackCoreHelper;
 import com.droi.sdk.feedback.DroiFeedback;
 import com.droi.sdk.feedback.DroiFeedbackError;
@@ -25,7 +26,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "DroiFeedbackDemo";
     TextView userIdTextView;
 
     @Override
@@ -124,6 +125,19 @@ public class MainActivity extends Activity {
             }
         });
 
+        // 匿名登录
+        DroiUser user = DroiUser.getCurrentUser();
+        if (user == null || !user.isLoggedIn()) {
+            new Thread() {
+                @Override
+                public void run() {
+                    super.run();
+                    DroiError error = new DroiError();
+                    DroiUser.loginWithAnonymous(error);
+                    Log.d(TAG, "loginAnonymous: " + error.toString());
+                }
+            }.start();
+        }
     }
 
     @Override

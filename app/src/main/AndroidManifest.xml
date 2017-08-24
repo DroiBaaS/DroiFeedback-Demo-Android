@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.droi.sdk.droifeedbackdemo"
     android:versionCode="1"
     android:versionName="1.0">
@@ -13,8 +12,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.droi.sdk.application_id"
-            android:value="2b8umbzhdS9wEkXXak0slXqFpMxSd3_8lQCAiLwR" />
-
+            android:value="duvtmbzhcbuo0rxWSsqlXWZiJEG8WS_wlQCKaLoC" />
         <meta-data
             android:name="com.droi.sdk.channel_name"
             android:value="DROI_CHANNEL" />
@@ -27,16 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.droi.sdk.feedback.DroiFeedbackActivity"
-            android:theme="@style/AppTheme"
-            tools:replace="android:theme" />
-        <!--
-        <activity
-            android:name="com.droi.sdk.feedback.DroiFeedbackActivity"
-            android:theme="@style/AppTheme"
-            tools:replace="android:theme" />
-        可以用来修改状态栏颜色-->
 
     </application>
 

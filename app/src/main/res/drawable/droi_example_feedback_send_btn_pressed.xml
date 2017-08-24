@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/droi_feedback_yellow_dark" />
+            <corners
+                android:bottomLeftRadius="@dimen/droi_feedback_radius"
+                android:bottomRightRadius="@dimen/droi_feedback_radius"
+                android:topLeftRadius="@dimen/droi_feedback_radius"
+                android:topRightRadius="@dimen/droi_feedback_radius" />
+        </shape>
+    </item>
+</layer-list>

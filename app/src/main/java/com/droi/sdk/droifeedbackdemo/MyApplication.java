@@ -4,7 +4,6 @@ import android.app.Application;
 
 import com.droi.sdk.core.Core;
 import com.droi.sdk.feedback.DroiFeedback;
-import com.droi.sdk.feedback.GlideEngine;
 import com.squareup.leakcanary.LeakCanary;
 
 public class MyApplication extends Application {
@@ -16,7 +15,6 @@ public class MyApplication extends Application {
         }
         LeakCanary.install(this);
         Core.initialize(this);
-        DroiFeedback.initialize(this, "_Alo_HOvf32ohDFdYVKz05DGhCYTpqPzKq78elkEx1iDjmOtPe_anOHQGA2TS4m9");
-        DroiFeedback.setImageEngine(new GlideEngine());
+        DroiFeedback.initialize(this,"GcurV5MnVBK3wsgHsu6MdQrqXJ5w6uP3P-SRStogfGhhmNgin2f_1m4MIv8CjAnE");
     }
 }
